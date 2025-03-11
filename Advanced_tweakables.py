@@ -1,6 +1,6 @@
 class Advancedtweakbles():  # Класс, содержащий специфические параметры симуляции.
 
-    Neutrino_spectrum_time = 1e-200  # Point in time in years from beginning of simulation at which you want to see a neutrino spectrum graph.
+    Neutrino_spectrum_time = 1e+3  # Point in time in years from beginning of simulation at which you want to see a neutrino spectrum graph.
     Distance_neutrino_spectrum = 1.5e+8  # Distance from the center of the stellar core to the imagenary neutrino detector in kilometes (should be at least 8-10 bigger the the raduim of the core itself for accurate results).
     Max_up_concentration_change = 1e+0  # Maximum relative concentration increase in one step of the simulation.
     Max_time_step = 1e+6  # Single time step limit in years.
